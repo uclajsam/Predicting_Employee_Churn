@@ -1,2 +1,3 @@
-# HR_Analytics
+# Predicting Employee Churn
+
 HR Analytics Project
