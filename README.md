@@ -68,6 +68,15 @@ These plots provide some **_key observations_**
 From these clusters, there are three distinct groups of employees who left the company
 
 **First Cluster - Low Satisfaction, High Evaluation:** These employees have very low satisfaction levels but are evaluated many times and work around 250 hours per month, on average.  These employees could be micromanaged by their superiors far more often than other employees.  In addition, they are clearly burned out from working too much.
+
 **Second Cluster - Low/Mid Satisfaction, Low Evaluation:** These employees are evaluated at an average level, but they work 150 hours per month (which is below the company average).  The general feeling from management is that these employees have underperformed.  Therefore, management chooses not to train or develop them into better employees.  As a result, employees feel a lack of support and might want to leave.
+
 **Third Cluster - High Satisfaction, High Evaluation:** These employees have evaluation ratings between 0.7 to 0.9 and work, on average, 250 hours.  Management could classify these group of employees as "superstars" since they are happy, work hard, and produce results.  However, employees might perform in such a manner in order to prepare for a better opportunity.  A promotion could be given within the company or they can look for a better opportunity at another company.
+
+### Distribution of Turnover for Each Department
+For each department, the percentage of employees who left versus those who stayed are relatively the same.  This shows that not one department experiences a greater percentage of turnover compared to other departments.
+
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/60159655/89440825-1544f000-d701-11ea-88d8-89eaa21d2825.png" />
+</p>
 
