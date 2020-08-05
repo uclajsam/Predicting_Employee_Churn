@@ -43,7 +43,31 @@ From the histograms, a few observations can be made:
 
 We will perform other visualizations on these variables to see if other information can be deduced.
 
-## KDE (Kernel Density Estimator) Plots
+### KDE (Kernel Density Estimator) Plots
 <p align = "center">
 <img src = "https://user-images.githubusercontent.com/60159655/89431711-1f60f180-d6f5-11ea-9e0e-da8b1dd52c72.png" />
 </p>
+
+These plots provide some **_key observations_**
+- For employees who left, a trimodal disribution can be seen for the Satisfaction KDE Plot (peaks at 0.1, 0.4, and 0.8).
+- For employees who left, a bimodal distribution can be seen for the Evaluation KDE Plot (peaks at 0.5 and 0.9).
+- For employees who left, a bimodal distribution can be seen for the Average Monthly Hours KDE Plot (peaks at 150 hours and 250 hours, which mirror the historgram shape above).
+
+### Plotting Cluster Groups
+
+**Average Monthly Hours Cluster**
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/60159655/89436808-98634780-d6fb-11ea-9cb1-86a3bde752b7.png" />
+</p>
+
+**Evaluation Cluster**
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/60159655/89436879-b0d36200-d6fb-11ea-911f-4bd47e607182.png" />
+</p>
+
+From these clusters, there are three distinct groups of employees who left the company
+
+**First Cluster - Low Satisfaction, High Evaluation:** These employees have very low satisfaction levels but are evaluated many times and work around 250 hours per month, on average.  These employees could be micromanaged by their superiors far more often than other employees.  In addition, they are clearly burned out from working too much.
+**Second Cluster - Low/Mid Satisfaction, Low Evaluation:** These employees are evaluated at an average level, but they work 150 hours per month (which is below the company average).  The general feeling from management is that these employees have underperformed.  Therefore, management chooses not to train or develop them into better employees.  As a result, employees feel a lack of support and might want to leave.
+**Third Cluster - High Satisfaction, High Evaluation:** These employees have evaluation ratings between 0.7 to 0.9 and work, on average, 250 hours.  Management could classify these group of employees as "superstars" since they are happy, work hard, and produce results.  However, employees might perform in such a manner in order to prepare for a better opportunity.  A promotion could be given within the company or they can look for a better opportunity at another company.
+
