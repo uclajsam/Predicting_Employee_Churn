@@ -80,3 +80,10 @@ For each department, the percentage of employees who left versus those who staye
 <img src = "https://user-images.githubusercontent.com/60159655/89440825-1544f000-d701-11ea-88d8-89eaa21d2825.png" />
 </p>
 
+### Correlation Matix
+From the correlation matrix, `evaluation`, `project_count`, and `average_mothly_hours` are the only variables significantly correlated with one another.  From our analysis above, these are the variables that show clear distincton with `turnover`.  In addition, `satisfaction` is the most correlated variable with `turnover`.  
+
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/60159655/89440825-1544f000-d701-11ea-88d8-89eaa21d2825.png" />
+</p>
+
