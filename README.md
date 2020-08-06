@@ -121,3 +121,12 @@ The ROC/AUC curve for the three models using the test data is shown below:
 
 
 ## Recommendations for Employee Churn
+To create a proper retention plan, the following suggestions should be implemented:
+
+- **Monthly Income:** There was a good portion of employees paid in the low end of the spectrum.  Some employees might leave because they are not paid adequately compared to other positions.  The company should at least pay employees the industry average for their specific position.
+- **Overtime:** There was a good portion of employees working at least 60+ hours per week (240+ hours per month).  Our analysis showed that employees who worked to much were not satisfied with their current job.  The company should do what they can do limit extra work by providing support and setting realistic expectations for what duties are required for each position.
+
+Each "cluster" discovered in our analysis should have a retention strategy tailored to that group.  By taking a proactive approach, companies could potentially save millions of dollars, as well as numerous hours, to replace and train new employees.
+
+## Conclusion
+The goal of this project was to identify key factors that cause employees for a company.  For our particular dataset, employees typically left if they were not satisfied, not paid enough, or were not managed in an effective manner.  The company should do what they can to reduce employee turnover as much as possible in order to minimize costs.
