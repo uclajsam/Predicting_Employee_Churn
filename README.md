@@ -96,7 +96,7 @@ Before we can create a representative model to predict turnover, we need to hand
 2. Upsample using SMOTE (Synthetic Minority Over-Sampling Techniques)
 3. Downsample the majority class
 
-Evaluating the F1 score using these three techniques with a 80/20 train-test split, **_upsampling using SMOTE_** provided the best score.
+Evaluating the F1 score using these three techniques with a 80/20 train-test split, **_upsampling using SMOTE_** provided the best score.  We will use the SMOTE sample for predicting how these models work on the test data. 
 | Method | F1 Score |
 | -------- | ----------- |
 | Original Sample | 0.4451 |
@@ -110,3 +110,14 @@ We decided to use a Logistic Regression, Random Forest Classifier, and Gradient 
 <p align = "center">
 <img src = "https://user-images.githubusercontent.com/60159655/89477068-257cbf80-d741-11ea-9857-0564b4fc81e4.png" />
 </p>
+
+**Observation:** Cross validation of the training set shows that Random Forest and Gradient Boosting achieve the best metric scores.  We will use these models for predicting turnover on the test data. 
+
+### Model Evaluation for Test Data
+The ROC/AUC curve for the three models using the test data is shown below:
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/60159655/89488736-9d58e300-d75d-11ea-8cdc-f458f3c2a9fd.png" />
+</p>
+
+
+## Recommendations for Employee Churn
