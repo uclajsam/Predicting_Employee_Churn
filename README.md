@@ -84,6 +84,29 @@ For each department, the percentage of employees who left versus those who staye
 From the correlation matrix, `evaluation`, `project_count`, and `average_mothly_hours` are the only variables significantly correlated with one another.  From our analysis above, these are the variables that show clear distincton with `turnover`.  In addition, `satisfaction` is the most correlated variable with `turnover`.  
 
 <p align = "center">
-<img src = "https://user-images.githubusercontent.com/60159655/89440825-1544f000-d701-11ea-88d8-89eaa21d2825.png" />
+<img src = "https://user-images.githubusercontent.com/60159655/89443925-d5ccd280-d705-11ea-9268-a3d4a9ec63a7.png" />
 </p>
 
+## Modeling
+
+### Data Preprocessing
+Before we can create a representative model to predict turnover, we need to handle the imbalance in the target variable.  To create a balanced target variable, we utilize the following strategies:
+
+1. Upsample the minority class
+2. Upsample using SMOTE (Synthetic Minority Over-Sampling Techniques)
+3. Downsample the majority class
+
+Evaluating the F1 score using these three techniques with a 80/20 train-test split, **_upsampling using SMOTE_** provided the best score.
+| Method | F1 Score |
+| -------- | ----------- |
+| Original Sample | 0.4451 |
+| Upsample | 0.7843 |
+| SMOTE | 0.8103
+| Downsample | 0.7799 | 
+
+
+### Model Evaluation
+We decided to use a Logistic Regression, Random Forest Classifier, and Gradient Boosting Classifier to train our models.  These are typical models used for classification problems.  We used 10-fold cross validation to ensure reliable results.  Below is a table of our metrics:
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/60159655/89477068-257cbf80-d741-11ea-9857-0564b4fc81e4.png" />
+</p>
